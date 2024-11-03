@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TimeFlowPro - Assistance</title>
+    <title>Accueil - TimeFlowPro Support</title>
     <style>
         /* Reset CSS */
         * {
@@ -23,51 +23,57 @@
 
         header {
             background-color: #4a90e2;
-            padding: 1.5rem;
+            padding: 2rem 1rem;
             color: white;
             text-align: center;
         }
 
         header h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 
         main {
             flex: 1;
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 2rem;
-            max-width: 800px;
-            margin: 0 auto;
         }
 
         section {
+            width: 100%;
             margin: 1.5rem 0;
-            padding: 1.5rem;
+            padding: 2rem;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%;
+            text-align: center;
         }
 
         h2 {
             color: #4a90e2;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
         }
 
         p {
             line-height: 1.6;
             margin-bottom: 1rem;
+            color: #555;
         }
 
-        a {
-            color: #4a90e2;
+        .button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 0.75rem 1.5rem;
             text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .button:hover {
+            background-color: #357ABD;
         }
 
         footer {
@@ -81,25 +87,25 @@
 </head>
 <body>
     <header>
-        <h1>Assistance TimeFlowPro</h1>
-        <p>Bienvenue sur la page d'assistance de TimeFlowPro</p>
+        <h1>Bienvenue sur le support TimeFlowPro</h1>
     </header>
 
     <main>
         <section>
             <h2>À propos de TimeFlowPro</h2>
-            <p>TimeFlowPro est une application conçue pour aider les utilisateurs à gérer et suivre leur temps de travail et leurs heures supplémentaires. Elle fournit une interface simple et efficace pour enregistrer les heures de travail et analyser les données.</p>
+            <p>TimeFlowPro est une application dédiée à la gestion efficace de votre temps de travail. Suivez facilement vos heures de travail, heures supplémentaires, et obtenez des rapports détaillés.</p>
+        </section>
+
+        <section>
+            <h2>Support et assistance</h2>
+            <p>Nous sommes là pour vous aider ! Consultez notre documentation ou contactez notre équipe pour toute question relative à l'application.</p>
+            <a href="mailto:timeflowpro@gmail.com" class="button">Contactez-nous</a>
         </section>
 
         <section>
             <h2>Politique de Confidentialité</h2>
-            <p>Nous respectons votre vie privée. Consultez notre <a href="https://ouevazzy.github.io/TimeFlowPro-Support/privacy.html">politique de confidentialité</a> pour en savoir plus sur la manière dont nous protégeons vos informations.</p>
-        </section>
-
-        <section>
-            <h2>Contact</h2>
-            <p>Si vous avez des questions ou des problèmes concernant TimeFlowPro, n'hésitez pas à nous contacter :</p>
-            <p>Email : <a href="mailto:timeflowpro@gmail.com">timeflowpro@gmail.com</a></p>
+            <p>Nous respectons votre vie privée et nous nous engageons à la protéger. Consultez notre politique de confidentialité pour en savoir plus.</p>
+            <a href="privacy.html" class="button">Voir la politique de confidentialité</a>
         </section>
     </main>
 
